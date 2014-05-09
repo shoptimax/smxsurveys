@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="smxmanagesurveys">
+            <SUBMENU id="smxsurveysstart" cl="smxsurveys_admin" list="smxsurveys_list">
+                <TAB id="tbclsmxsurveys_main" cl="smxsurveys_main" />
+                <TAB id="tbclsmxsurveys_questions" cl="smxsurveys_questions" />
+                <TAB id="tbclsmxsurveys_answers" cl="smxsurveys_answers" />
+                <TAB id="tbclsmxsurveys_results" cl="smxsurveys_results" />
+                <!-- <TAB id="tbclsmxsurveys_mall" cl="smxsurveys_mall" /> -->
+                <BTN id="smxsurveys_new" />
+            </SUBMENU>
+		</MAINMENU>
+	</OXMENU>
+</OX>

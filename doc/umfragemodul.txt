@@ -1,0 +1,13 @@
+Umfragemodul "smxsurveys"
+---------------------------------------
+Mit dem Umfragemodul "smxsurveys" der Shoptimax GmbH können Sie in Ihrem Oxid eShop komfortabel beliebig viele Umfragen anlegen und auswerten.
+Für jede Umfrage können beliebig viele Fragen und Antworten definiert werden. Fragen können als Checkboxen (Mehrfach-Antworten möglich) oder Radiobuttons angelegt werden.
+Antworten können optional als Freitext definiert werden, hier kann der Benutzer dann einen eigenen Text eingeben.
+Sowohl Fragen als auch Antworten können beliebig sortiert werden.
+Optional kann man Umfragen so einstellen, dass der Benutzer freiwillig seine Email-Adresse angeben kann, diese wird unabhängig von seinen Antworten gespeichert -
+damit könnte man z.B. ein Gewinnspiel realisieren für alle Teilnehmer einer Umfrage.
+Man kann zudem einstellen, ob der Benutzer die Ergebnisse sehen darf oder nicht.
+Weist man einer Umfrage bestimmte Benutzergruppen zu, können nur Benutzer die Umfrage aufrufen, die in der entsprechenden Gruppe sind (und damit nur angemeldete Benutzer).
+Eine weitere Option ist, alle Fragen zu Pflichtfeldern zu machen und das Ausfüllen der Umfrage per Javascript prüfen zu lassen. Selbstverständlich ist es auch möglich,
+ein Cookie im Browser der Teilnehmer zu setzen, um mehrfache Teilnahmen zu erschweren.
+Umfragen können in beliebigen Teilen des Shop integriert werden oder auch explizit über eigene URLs aufgerufen und eingesehen oder beantwortet werden.
