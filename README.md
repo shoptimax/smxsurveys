@@ -8,6 +8,9 @@ Survey module for OXID eShop
 ![smxsurveys Admin](https://raw.githubusercontent.com/shoptimax/smxsurveys/master/doc/smxsurveys_admin01.jpg)
 
 Create different surveys for your OXID eShop. Supports multiple questions with multiple answers (radio buttons, checkboxes, freetext).
+
+![smxsurveys Admin 2](https://raw.githubusercontent.com/shoptimax/smxsurveys/master/doc/smxsurveys_admin02.jpg)
+
 You can define the answers as mandatory, limit the surveys to certain user groups, set cookies and session parameters to prevent from
 multiple entries etc.
 
