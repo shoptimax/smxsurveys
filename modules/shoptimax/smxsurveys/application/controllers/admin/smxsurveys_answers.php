@@ -1,11 +1,24 @@
 <?php
 /**
- * This Software is the property of Shoptimax GmbH and is protected
- * by copyright law - it is NOT Freeware.
- * @copy (C) Shoptimax 2009
- */
-/**
- * @package admin
+ *    This file is part of smxsurveys.
+ *
+ *    smxsurveys is free software: you can redistribute it and/or modify
+ *    it under the terms of the GNU General Public License as published by
+ *    the Free Software Foundation, either version 3 of the License, or
+ *    (at your option) any later version.
+ *
+ *    smxsurveys is distributed in the hope that it will be useful,
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *    GNU General Public License for more details.
+ *
+ *    You should have received a copy of the GNU General Public License
+ *    along with this package.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @link      http://www.shoptimax.de
+ * @package   smxsurveys
+ * @copyright (C) shoptimax GmbH 2009-2014
+ * @version 0.5.0
  */
 class Smxsurveys_Answers extends oxAdminView
 {
@@ -14,7 +27,7 @@ class Smxsurveys_Answers extends oxAdminView
      * passes news text to smarty. Returns name of template file "news_text.tpl".
      * @return string
      */
-    function render()
+    public function render()
     {   $myConfig = $this->getConfig();
         $mySession = $this->getSession();
 
@@ -113,7 +126,7 @@ class Smxsurveys_Answers extends oxAdminView
         return "smxsurveys_answers.tpl";
     }
 
-    function saveinnlang()
+    public function saveinnlang()
     {
         // apply new language
         $sNewLanguage = oxConfig::getParameter( "new_lang");
@@ -122,7 +135,7 @@ class Smxsurveys_Answers extends oxAdminView
     /**
      * Saves answers
      */
-    function save($sNewLanguage = "")
+    public function save($sNewLanguage = "")
     {   $myConfig = $this->getConfig();
         $mySession = $this->getSession();
 
